@@ -41,7 +41,7 @@
 }
 #banner
 {
-	background: url(/home/arvind/Documents/demo/image/nicolas) no-repeat 0 0;
+	background: url(./image/nicolas1) no-repeat 0 0;
 	background-size:cover;
 
 }
@@ -86,7 +86,7 @@
 }
 #testimonial
 {
-	background: url(/home/arvind/Documents/demo/image/nicolas) no-repeat 0 0;
+	background: url(./image/nicolas1) no-repeat 0 0;
 	background-size: cover;
 	padding: 50px 0;
 	position: relative;
