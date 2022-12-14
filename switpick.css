@@ -1,0 +1,681 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+.top1
+{
+	width: 100%;
+	height: 50px;
+	background: black;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+.top1 ul
+{
+	display: flex;
+	margin-right: 70px;
+}
+.top1 ul li
+{
+	
+	
+	color: white;
+	list-style: none;
+	text-decoration: none;
+	justify-content:space-between;
+	margin-right: 40px;
+	
+}
+.top1 ul li:hover
+{
+	color: red;
+	cursor: pointer;
+}
+
+.top2
+{
+	width: 100%;
+	height: 100px;
+	
+	
+}
+.input
+{
+	position: relative;
+	top: 35px;
+	left: 70px;
+	height: 30px;
+	width: 200px;
+}
+.logo
+{
+	display: flex;
+	justify-content: center;
+}
+.card
+{
+	float: right;
+	justify-content: left;
+	align-items: center;
+	width: 170px;
+	height: 60px;
+	/*border:1px solid red;*/
+	display: flex;
+	margin-top: -40px;
+	margin-right: 100px;
+
+}
+.card:hover 
+{
+	color: red;
+	cursor: pointer;
+	
+}
+
+.card img
+{
+	width: 40px;
+	height:40px;
+	margin-left:10px;
+	margin-top:-20px;
+}
+.menu:hover 
+{
+	width: 100%;
+	height: 70px;
+	
+
+}
+.menu ul 
+{
+	display: flex;
+	justify-content: center;
+	margin-right: 10px;
+
+	
+
+
+}
+.menu ul li
+{
+	display: flex;
+	line-height: 70px;
+	margin-left: 40px;
+	text-transform:uppercase;
+	font-weight: 500;
+}
+.menu ul li:hover
+{
+	color: red;
+}
+ .drop-menu 
+{
+	width: 300px;
+	height: 400px;
+	border:1px solid red;
+	/*display: flex;*/
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-right: 100px;
+	margin-top:130px;
+	background-color: white;
+	
+	
+
+
+}
+.left-box1
+{
+	width: 80px;
+	height: 80px; 
+}
+.cross-right1
+{
+	width: 40px;
+	height: 40px;
+	border:1px solid black;
+}
+.cross-right2
+{
+	width: 40px;
+	height: 40px;
+	border:1px solid black;
+}
+.drop-menu .content1
+{
+	position:absolute;
+	top: 0;
+	left:0;
+	margin-left:100px;
+}
+.drop-menu .content1 h4
+{
+	margin-top: 10px;
+}
+.drop-menu .content1 h5
+{
+	letter-spacing: 1px;
+	color: #ccc;
+
+}
+.drop-menu .content1 hr
+{
+	width: 100%;
+
+}
+.left-box2
+{
+	width: 80px;
+	height: 80px; 
+	margin-top: 30px;
+}
+.drop-menu .content2
+{
+	position:relative;
+	top: 0;
+	left:0;
+	margin-left:100px;
+	margin-top: -97px;
+}
+.drop-menu .content2 h3 span
+{
+   margin-left: 4px;
+}
+.drop-menu .content2 h4
+{
+	margin-top: 10px;
+}
+.drop-menu .content2 h5
+{
+	letter-spacing: 1px;
+	color: #ccc;
+}
+.content1 .cross-right1
+{
+	width: 30px;
+	height: 30px;
+	/*border:1px solid red;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 140px;
+	text-align: center;
+}
+.content2 .cross-right2
+{
+	width: 30px;
+	height: 30px;
+	/*border:1px solid red;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 140px;
+	text-align: center;
+}
+.all-price
+{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.button1
+{
+	width: 200px;
+	height: 40px;
+	background-color: pink;
+	color: white;
+	margin-left:45px;
+	margin-bottom: 10px;
+	border-style: none;
+}
+.button2
+{
+	width: 200px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	margin-left:45px;
+	border-style: none;
+
+}
+.lending
+{
+	width: 100%;
+	height: 600px;
+	/*border:1px solid red;*/
+	position: relative;
+	align-items: center;
+	
+
+}
+.lending img
+{
+  width: 100%;
+	height: 600px;
+	
+}
+.lending .text
+{
+	width: 900px;
+	height: 300px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*justify-content: center;
+	display: flex;
+	align-items: center;*/
+	margin-left: 18%;
+	margin-top: 15%;
+
+}
+.text h4
+{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 20px;
+	color: white;
+}
+.text h1
+{
+	text-align: center;
+	letter-spacing: 6px;
+	font-size:70px;
+	color: white;
+
+}
+.text button
+{
+	width: 150px;
+	height: 40px;
+	border:1px solid white;
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 40px;
+	color: black;
+	font-weight: 600;
+	background-color: transparent;
+
+}
+.text button:hover
+{
+	background-color: white;
+}
+.bot1
+{
+	width: 100%;
+	height: 300px;
+	/*background-color: red;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.bot1 .photo3
+{
+	width: 350px;
+	height: 250px;
+	margin: 20px;
+	position: relative;	
+}
+.bot1 .photo3 img
+{
+	width: 350px;
+	height: 250px;
+}
+.bot1 .opacity
+{
+	width: 350px;
+	height: 250px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.5s;
+}
+.bot1 .opacity:hover
+{
+	background-color: #cddc396e;
+	cursor: pointer;
+}
+.bot1 .opacity .content
+{
+	margin-top: 50px;
+}
+.bot1 .opacity h1,h3
+{
+	position:relative;
+	color: white;
+	margin-left: 80px;
+	padding-top: 10px;
+	line-height: 
+
+}
+
+
+.bot2
+{
+	width: 100%;
+	height: 350px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;	
+}
+.bot2 .photo4
+{
+	width: 250px;
+	height: 300px;
+	margin: 22px;
+	position: relative;	
+}
+.bot2 .photo4 img
+{
+	width: 250px;
+	height: 300px;
+}
+.bot2 .opacity1
+{
+	width: 250px;
+	height: 300px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.5s;
+}
+.bot2 .opacity1:hover
+{
+	background-color: #cddc396e;
+	cursor: pointer;
+}
+.bot2 .opacity1 button
+{
+	margin-left: 50px;
+	margin-top: 80px;
+	padding:15px;
+	width: 150px;
+	color: white;
+	background-color: pink;
+	border-style: none;
+	display: none;
+	font-weight: 800;
+}
+.bot2 .opacity1:hover > button
+{
+    display: block;
+    transition: 0.5s;
+}
+.opacity1 .content
+{
+	
+	margin-top: 10px;
+	display: none;
+	color: white;
+}
+.opacity1:hover > .content
+{
+	display: block;
+}
+.bot3
+{
+	max-width: 100%;
+	height: 150px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+	
+}
+.bot3 h1
+{
+	/*margin-left: 300px;*/
+	font-style: italic;
+}
+
+.bot3 span
+{
+	color: pink;
+}
+.bot3 h3
+{
+	color: grey;
+	text-align: center;
+	margin-top: -10px;
+	margin-left: -30px;
+	
+}
+.bot4
+{
+	width: 100%;
+	height: 600px;
+	background-color: gray;
+	padding-top: 150px;
+	position: relative;
+
+	
+}
+.bot4 .content 
+{
+	/*background-color: red;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top:60px;
+	margin-left: 40%;
+
+
+}
+.botin 
+{
+  width: 100%;
+	height: 300px;
+	/*background-color: red;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.botin .photo3
+{
+	width: 350px;
+	height: 250px;
+	background-color: blue;
+	margin: 20px;
+	position: relative;	
+}
+.botin .photo3 img
+{
+	width: 350px;
+	height: 250px;
+	position: relative;
+}
+.bot4 .black
+{
+	width: 40px;
+	height: 50px;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.bot4 .black h4
+{
+	color: white;
+}
+.bot4 .black:hover
+{
+	background-color: white;
+	cursor: pointer;
+
+}
+.bot4 .black h4:hover
+{
+	color: black;
+	cursor: pointer;
+}
+.this
+{
+	width: 100%;
+	height:150px;
+	background-color: #3e3b3a14;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	position: absolute;
+	align-items: center;
+	padding: 80px;
+	margin-top: -10px;
+
+	
+
+}
+ .this .content1
+{
+	width: 370px;
+	height: 150px;
+	/*background-color: red;*/
+	position: relative;
+	padding: 10px;
+
+	
+}
+.this .content h4
+{
+	color:#b0a5a524;
+}
+.black
+{
+	width: 100%;
+	height: 600px;
+	background-color:#000000de;
+	padding-top: 50px;
+
+}
+.black h4
+{
+	margin-top: -40px;
+}
+.topcontent
+{
+	width: 100%;
+	height: 40px;
+	/*background-color:gray;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*position: absolute;*/
+	justify-content: space-around;
+	padding: 10px;
+
+
+}
+.topcontent .c1
+{
+	width: 150px;
+	height: 40px;
+	/*background-color: red;*/
+	/*padding: 10px;*/
+	/*position: relative;*/
+	align-items: center;
+	justify-content: center;
+
+}
+.topcontent .c1 h3
+{
+	color: white;
+	font-weight:400;
+	justify-content: flex-start;
+	margin-left:-1px;
+	font-weight: 800;
+}
+
+.botcontent
+{
+	width: 100%;
+	height: 350px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+	margin-top: 30px;	
+}
+.botcontent .content4
+
+{
+	width: 250px;
+	height: 400px;
+	margin: 22px;
+	position: relative;	
+	/*background-color: pink;*/
+	margin-top: 70px;
+}
+.content4 ul li
+{
+	margin-left: 80px;
+	line-height: 35px;
+	color: gray;
+}
+.content4 ul li:hover
+
+{
+	color: white;
+}
+.content4 p
+{
+	line-height: 22px;
+	color: white;
+}
+.content4 span
+{
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+}
+.media
+{
+	width: 150px;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	/*margin:10px;*/
+
+}
+.media .mediain
+{
+	width: 20px;
+	height: 20px;
+	border:1px solid gray;
+}
+.media .mediain img
+{
+	width: 20px;
+	height: 20px;	
+}
+.media .mediain:hover
+{
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
