@@ -16,8 +16,8 @@ body
 
 #header
 {
-	background: #fff
-	color:black;
+	background: black;
+	color:white;
 }
 .elogo img
 {
@@ -46,13 +46,14 @@ body
 #menu li
 {
 	display: inline-block;
+	background: white;
 }
 #menu li a
 {
 	text-decoration: none;
 	padding: 15px 10px;
 	display: block;
-
+     color: black;
 
 }
 #menu li a:hover
